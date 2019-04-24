@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@interface SingletonClass : NSObject
+
++ (SingletonClass*)sharedInstance;
+
+@property (assign, nonatomic) UIViewController *rpBroadcastPickerStandaloneViewController;
+
+@end
+
+
 @interface ViewController : UIViewController
 
 

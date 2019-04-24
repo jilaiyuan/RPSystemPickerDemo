@@ -13,6 +13,7 @@
 		4C97D90F226FF5A80098F455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C97D90E226FF5A80098F455 /* Assets.xcassets */; };
 		4C97D912226FF5A80098F455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C97D910226FF5A80098F455 /* LaunchScreen.storyboard */; };
 		4C97D915226FF5A80098F455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C97D914226FF5A80098F455 /* main.m */; };
+		4C97D91D226FFA980098F455 /* UIViewController+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C97D91C226FFA970098F455 /* UIViewController+MethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4C97D911226FF5A80098F455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C97D913226FF5A80098F455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C97D914226FF5A80098F455 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C97D91B226FFA970098F455 /* UIViewController+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MethodSwizzling.h"; sourceTree = "<group>"; };
+		4C97D91C226FFA970098F455 /* UIViewController+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MethodSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4C97D906226FF5A70098F455 /* AppDelegate.m */,
 				4C97D908226FF5A70098F455 /* ViewController.h */,
 				4C97D909226FF5A70098F455 /* ViewController.m */,
+				4C97D91B226FFA970098F455 /* UIViewController+MethodSwizzling.h */,
+				4C97D91C226FFA970098F455 /* UIViewController+MethodSwizzling.m */,
 				4C97D90B226FF5A70098F455 /* Main.storyboard */,
 				4C97D90E226FF5A80098F455 /* Assets.xcassets */,
 				4C97D910226FF5A80098F455 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				4C97D90A226FF5A70098F455 /* ViewController.m in Sources */,
 				4C97D915226FF5A80098F455 /* main.m in Sources */,
 				4C97D907226FF5A70098F455 /* AppDelegate.m in Sources */,
+				4C97D91D226FFA980098F455 /* UIViewController+MethodSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
